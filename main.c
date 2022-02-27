@@ -7,7 +7,7 @@ return day;
 
 int main(){
     system("Color 0F");
-    char *month[]={"January", "February", "March", "April", "May", "Junes", "July", "August", "September", "October", "November", "December"};
+    char *month[]={"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
     int daysInMonth[]={31, 28, 31, 30, 31, 30 , 31 , 31, 30, 31 , 30, 31};
     int i, j, totalDays, weekDay=0, spaceCounter=0, year;
 
