@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int getTheFirstWeakDayOfTheYear(int year){
-int day = (((year - 1) * 365) + ((year - 1) / 4) - ((years - 1) / 100) + ((year) / 400) + 1) % 7;
+int day = (((year - 1) * 365) + ((year - 1) / 4) - ((year - 1) / 100) + ((year) / 400) + 1) % 7;
 return day;
 }
 
